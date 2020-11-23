@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Project from "./pages/Project";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/project" component={Project} />
 
-        
+        <Footer />
         
       </div>
     </Router>
