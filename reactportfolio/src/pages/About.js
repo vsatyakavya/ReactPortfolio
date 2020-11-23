@@ -1,7 +1,7 @@
 import React from "react"
 
 function About( ){
-    return  <p>This is About page</p>
+    return  <p>This is page for about</p>
     
 }
 
